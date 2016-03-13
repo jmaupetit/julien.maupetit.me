@@ -1,4 +1,54 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/*
+    julien.maupetit.me styles
+ */
+/*
+ * helpers
+ */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 5%; }
+
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+  .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto; }
+
+.invisible {
+  visibility: hidden; }
+
+.clearfix {
+  *zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: " ";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
+/*
+ * base
+ */
 html {
   color: #222;
   font-size: 1em;
@@ -11,6 +61,9 @@ html {
 ::selection {
   background: #b3d4fc;
   text-shadow: none; }
+
+body {
+  font: 16px/26px Helvetica, Helvetica Neue, Arial; }
 
 hr {
   display: block;
@@ -36,141 +89,22 @@ fieldset {
 textarea {
   resize: vertical; }
 
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0; }
-
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-body {
-  font: 16px/26px Helvetica, Helvetica Neue, Arial; }
-
-.wrapper {
-  width: 90%;
-  margin: 0 5%; }
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-/* ==============
-    MOBILE: Main
-   ============== */
-.main {
-  padding: 30px 0; }
-
-.main article h1 {
-  font-size: 2em; }
-
-.main aside {
-  color: white;
-  padding: 0px 5% 10px; }
-
-.footer-container footer {
-  color: white;
-  padding: 20px 0; }
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
-.ie7 .title {
-  padding-top: 20px; }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-@media only screen and (min-width: 480px) {
-  /* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-  nav a {
-    float: left;
-    width: 27%;
-    margin: 0 1.7%;
-    padding: 25px 2%;
-    margin-bottom: 0; }
-  nav li:first-child a {
-    margin-left: 0; }
-  nav li:last-child a {
-    margin-right: 0; }
-  /* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-  nav ul li {
-    display: inline; }
-  .oldie nav a {
-    margin: 0 0.7%; } }
-
+/*
+ * mediaqueries
+ */
 @media only screen and (min-width: 768px) {
-  /* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-  /* ============
-    WIDE: Menu
-   ============ */
-  /* ============
-    WIDE: Main
-   ============ */
   .main article {
     width: 100%; } }
 
 @media only screen and (min-width: 1140px) {
-  /* ===============
-    Maximal Width
-   =============== */
   .wrapper {
     width: 1026px;
     /* 1140px - 10% for margins */
     margin: 0 auto; } }
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-.hidden {
-  display: none !important;
-  visibility: hidden; }
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto; }
-
-.invisible {
-  visibility: hidden; }
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table; }
-
-.clearfix:after {
-  clear: both; }
-
-.clearfix {
-  *zoom: 1; }
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
+/*
+ * print
+*/
 @media print {
   *,
   *:before,
@@ -208,3 +142,6 @@ body {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+.ie7 .title {
+  padding-top: 20px; }

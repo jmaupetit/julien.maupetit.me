@@ -1,0 +1,20 @@
+/*
+ * page
+ */
+
+.header-container {
+    .title {}
+
+    .ie7 .title {
+        padding-top: 20px;
+    }
+}
+
+.main-container {
+
+    &.main {}
+}
+
+.footer-container {
+    footer {}
+}
