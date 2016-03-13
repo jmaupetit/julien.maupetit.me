@@ -63,7 +63,7 @@ html {
   text-shadow: none; }
 
 body {
-  font: 16px/26px Helvetica, Helvetica Neue, Arial; }
+  font: 16px/26px 'Roboto', Helvetica, Helvetica Neue, Arial; }
 
 hr {
   display: block;
@@ -143,5 +143,8 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 
-.ie7 .title {
+/*
+ * page
+ */
+.header-container .ie7 .title {
   padding-top: 20px; }
