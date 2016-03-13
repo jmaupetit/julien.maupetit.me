@@ -19,7 +19,8 @@ html {
 }
 
 body {
-    font: 16px/26px 'Roboto', Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px 'Lora', serif;
+    color: $primary-text-color;
 }
 
 hr {
@@ -40,10 +41,48 @@ video {
     vertical-align: middle;
 }
 
+a {
+    color: $accent-color;
+    text-decoration: none;
+
+    &.button {
+        padding: 0.6rem 1rem 0.5rem;
+        border-radius: 5px;
+        background-color: $primary-color;
+        color: $primary-color-text;
+        font-family: Helvetica, Helvetica Neue, Arial;
+    }
+}
+
 fieldset {
     border: 0;
     margin: 0;
     padding: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    line-height: 2.4rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1.1rem;
 }
 
 textarea {
