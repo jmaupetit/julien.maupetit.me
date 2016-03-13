@@ -1,0 +1,22 @@
+{
+  "name": "julien.maupetit.me",
+  "version": "1.0.0",
+  "description": "/me",
+  "scripts": {
+    "build": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch": "node-sass -w --include-path scss scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmaupetit/julien.maupetit.me.git"
+  },
+  "author": "Julien Maupetit",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/jmaupetit/julien.maupetit.me/issues"
+  },
+  "homepage": "https://github.com/jmaupetit/julien.maupetit.me#readme",
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  }
+}
