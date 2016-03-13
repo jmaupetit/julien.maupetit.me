@@ -4,7 +4,7 @@
   "description": "/me",
   "scripts": {
     "build": "node-sass --include-path scss scss/main.scss css/main.css",
-    "watch": "node-sass -w --include-path scss scss/main.scss css/main.css"
+    "watch": "nodemon -e scss -x \"npm run build\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jmaupetit/julien.maupetit.me#readme",
   "devDependencies": {
-    "node-sass": "^3.4.2"
+    "node-sass": "^3.4.2",
+    "nodemon": "^1.9.1"
   }
 }
