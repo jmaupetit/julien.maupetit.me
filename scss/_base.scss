@@ -3,33 +3,33 @@
  */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: $accent-color;
+  color: $primary-color-text;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: $accent-color;
+  color: $primary-color-text;
 }
 
 body {
-    font: 16px/26px 'Lora', serif;
-    color: $primary-text-color;
+  font: 16px/26px "Lora", serif;
+  color: $primary-text-color;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 audio,
@@ -38,26 +38,26 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 a {
-    color: $accent-color;
-    text-decoration: none;
+  color: $accent-color;
+  text-decoration: none;
 
-    &.button {
-        padding: 0.6rem 1rem 0.5rem;
-        border-radius: 5px;
-        background-color: $primary-color;
-        color: $primary-color-text;
-        font-family: Helvetica, Helvetica Neue, Arial;
-    }
+  &.button {
+    padding: 0.6rem 1rem 0.5rem;
+    border-radius: 5px;
+    background-color: $primary-color;
+    color: $primary-color-text;
+    font-family: Helvetica, Helvetica Neue, Arial;
+  }
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h2,
@@ -65,26 +65,26 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: normal;
-    line-height: 2.4rem;
+  font-weight: normal;
+  line-height: 2.4rem;
 }
 
 h1 {
-    font-size: 2.2rem;
+  font-size: 2.2rem;
 }
 
 h2 {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 h3 {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 h4 {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }

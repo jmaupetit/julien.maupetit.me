@@ -2,24 +2,25 @@
  * mediaqueries
  */
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 480px) {
+}
 
 @media only screen and (min-width: 768px) {
+  .header-container,
+  .main aside {
+  }
 
-    .header-container,
-    .main aside {}
+  .title {
+  }
 
-    .title {}
-
-    .main article {
-        width: 100%;
-    }
+  .main article {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1140px) {
-
-    .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
-    }
+  .wrapper {
+    width: 1026px; /* 1140px - 10% for margins */
+    margin: 0 auto;
+  }
 }
