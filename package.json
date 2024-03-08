@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "/me",
   "scripts": {
-    "build": "node-sass --include-path scss scss/main.scss css/main.css",
+    "build": "node-sass --include-path src/scss src/scss/main.scss src/css/main.css",
     "watch": "nodemon -e scss -x \"npm run build\""
   },
   "repository": {
