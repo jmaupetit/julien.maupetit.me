@@ -1,6 +1,6 @@
 {
   "name": "julien.maupetit.me",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "/me",
   "scripts": {
     "build": "yarn run compile --output-style compressed",
